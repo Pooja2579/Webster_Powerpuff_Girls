@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    position: relative;
+width: 1340px;
+height: 100px;
+background: linear-gradient(200.23deg, rgba(32, 56, 42, 0.8) 0.25%, rgba(0, 0, 0, 0.8) 100%);
+mix-blend-mode: normal;
+   
+}
+
+
+.logo1 img{
+    background-color: rgba(32, 56, 42, 0.8) 0.25%;
+    position: absolute;
+    width: 350px;
+    margin-top: -70px;
+    margin-left:900px;
+    float: right;
+}
+.image img{
+    
+    width: 25%;
+    margin-left: 50px;
+    float: right;
+    
+
+}
+.paper img{
+    position: absolute;
+width: 207.08px;
+height: 300.49px;
+left: -42.06px;
+top: 351.52px;
+float: left;
+transform: matrix(0.9, 0.43, -0.35, 0.94, 0, 0);
+
+}
+.watch img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-left: 1250px;
+    margin-top: 230px;
+    float: right;
+    
+}
+.cap img{ 
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 850px;
+    margin-top: 450px;
+    float: left;
+    transform: matrix(0.9, 0.43, -0.35, 0.94, 0, 0);
+    
+}
+
+
+.container{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 47%;
+    width: 440px;
+    height: 590px;
+    margin-bottom: 20px;
+    background-color: #000;
+}
+
+.container h1{
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+input{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 320px;
+    height: 47px;
+    background-color: #333;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+}
+
+input::placeholder{
+    font-size: 17px;
+    margin-left: 15px;
+    padding: 12px;
+}
+
+input[type=submit]{
+    width: 320px;
+    height: 45px;
+    background-color: red;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+input[type=checkbox]{
+    width: 25px;
+    height: 18px;
+    border-radius: 5px;
+}
+
+label{
+    color: rgb(125, 119, 119);
+}
+
+.form a{
+    float: right;
+    margin-top: 24px;
+    margin-right: 64px;
+    color: rgb(125, 119, 119);
+    text-decoration: none;
+}
+
+.content{
+    color: #fff;
+    position: absolute;
+    margin-top: 80px;
+    font-size: 9px;
+    margin-left: 55px;
+}
+
+.content h2{
+    color: rgb(125, 119, 119);
+}
+
+.container a{
+    color: #fff;
+    text-decoration: none;
+}
+.write{
+    color: #fff;
+    align-items: center;
+    position: relative;
+    left: 500px;
+    top:2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.heading{
+    color:#fff;
+    align-items: center;
+    position: relative;
+    left: 500px;
+    top:2px;
+    font-family: 'Times New Roman', Times, serif;
+}
